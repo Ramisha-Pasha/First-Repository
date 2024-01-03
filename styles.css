@@ -1,0 +1,63 @@
+section h1{
+    color: black;
+    font-weight: bolder;
+    font: ariel;
+
+}
+section h2{
+  color: black;
+    font-weight: bold;
+    font: ariel;
+}
+.moved-text {
+    margin-left: 700px; /* Move the text 20 pixels to the right */
+    margin-top: 0px;
+    
+  }
+  /* .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  } */
+  ul{
+    list-style-type:  none;
+
+
+  }
+  input[type="text"],  input[type="password"]{
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 45%;
+    height: 25px;
+ 
+  }
+  input[type="text"]:focus{
+    border-color: #007bff;
+    box-shadow: 0 0 5px #2c78c9;
+  }
+  input[type="text"]::placeholder {
+    color: #aaa9a9;
+}
+input[type="radio"]{
+  margin-right: 10px;
+}
+
+
+  section.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    padding: 50px 0px;
+    margin-top: 0%;
+
+}
